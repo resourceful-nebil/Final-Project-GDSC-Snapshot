@@ -1,38 +1,133 @@
-.App {
+/* header */
+h1 {
+  font-family: "Lobster", "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  color: #051c33;
+  text-transform: capitalize;
+
+}
+.snaphot-header{
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 2em;
+  margin: 52px 0 40px;
+  text-transform: capitalize;
+  color: #051c33;
+}
+body {
   text-align: center;
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  color: #3f4850;
+  width: 100vw;
+  overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style-type: none;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
+}
+/*form*/
+
+.search-form {
+  max-width: 460px;
+  display: flex;
+  margin: 0 auto 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-form button {
+  outline: none;
+  border: none;
+  padding: 0px 15px;
+  border-radius: 0 0.35em 0.35em 0;
+  cursor: pointer;
+  background-color: #051c33;
 }
+
+.active {
+  background-color: #051c33;
+  cursor: pointer;
+}
+
+input {
+  font-size: 1em;
+  width: 100%;
+  background-color: #edeff0;
+  padding: 10px 15px;
+  border: 3px solid #d7dbdf;
+  border-right: none;
+  border-radius: 0.35em 0 0 0.35em;
+  outline: none;
+}
+
+
+
+.main-nav ul li {
+  
+  margin-bottom: 1em;
+}
+
+.main-nav a {
+  display: block;
+  background: #051c33;
+  border-radius: 3px;
+  padding: 5px;
+  color: #fff;
+  padding: .5rem 2rem;
+}
+
+.main-nav .active,
+.main-nav a:hover {
+  background-color: #051c33;
+}
+
+.images-container{
+  width: 70%;
+  margin: 0 auto 4rem auto;
+
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ gap: 1rem;
+ 
+
+
+}
+
+
+.images-container__image{
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.523);
+  border-radius: .3rem;
+  overflow: hidden;
+  background-color: #40444728;
+}
+
+.images-container__image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: all .3s ease-out;
+}
+.card{
+  margin: -3rem auto 0 auto;
+  transform: translateX(-5rem);
+  padding-top: 1rem;
+  width: 110% ;
+  background-color: 	#0db3c9f8;
+}
+.images-container__image img:hover{
+  transform: scaleX(1.05);
+}
+

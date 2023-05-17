@@ -5,7 +5,7 @@ function Mountain() {
   const getData = async () => {
     try {
       const response = await fetch(
-        "https://api.unsplash.com/search/photos?page=1&per_page=12&query=mountain&client_id=CPvH3kNA3Cb8sEer7VIuw69ErSVYws3yyh-RDSs7myg"
+        "https://api.unsplash.com/search/photos?page=1&per_page=24&query=mountain&client_id=CPvH3kNA3Cb8sEer7VIuw69ErSVYws3yyh-RDSs7myg"
       );
       if (!response.ok) {
         throw new Error("There is an error");

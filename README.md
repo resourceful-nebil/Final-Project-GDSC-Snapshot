@@ -1,3 +1,21 @@
+#About the project 
+Snap Shot is a gallery created using React, React Hooks, React Router and Unsplash API. The Routes were setup for four default pages and a search page. Also the images were displayed using the Unsplash API to fetch data.
+
+## Built With
+* React js
+* React Router
+* React Hooks
+* Unsplash API
+
+## Features
+* Responsive Design.
+* Search functionality added to search photos from API.
+
+<a href="https://final-project-gdsc-snapshot.vercel.app/">Demo of the project</a>
+
+![snapshotImage](https://github.com/resourceful-nebil/Final-Project-GDSC-Snapshot/assets/122722078/f980c7f6-365e-47e9-b941-f7b5c844a967)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
